@@ -5,7 +5,9 @@
 *   You have also to do the implementations of the methods inside the created class otherwise you will receive an error.
 *   And when you now want to create the instance of the class to come up with an object you have to referene the class and not the interface(and just heads up the clas should not happen to be an abstract class).
 *   If suppose you define variables inside the interface then they will automatically assume the final and static state.
-*   To print out or execute the method you call it with the Interface and not the object */
+*   To print out or execute the method you call it with the Interface and not the object.
+*   One particular key feature about interfaces is that a given class can implement multiple interface while in the case of abstract classes a given class can only extend on abstract class
+*   */
 
 package Interfaces_In_Java;
 
@@ -51,3 +53,5 @@ public class Main {
 
     }
 }
+
+
