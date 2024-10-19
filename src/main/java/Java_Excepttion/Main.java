@@ -9,7 +9,7 @@ class Area{
 
     public void getArea(int l,int w){
         area = l/w;
-       System.out.println(" The area is : " + area);
+       System.out.println("The area is : " + area);
    }
 
 
@@ -17,7 +17,7 @@ class Area{
 
 public class Main {
     public static void main(String[] args){
-        int i = 2;
+        int i = 20;
         int j = 0;
         int[] arr = new int[8];
         String str = null;
@@ -25,16 +25,16 @@ public class Main {
         try
         {
             j = 18/i;
-            System.out.println(str.length());
-            System.out.println(arr[8]);
+//            System.out.println(str.length());
+//            System.out.println(arr[8]);
 
         }
         catch (ArithmeticException e){
             System.out.println("Something went wrong " + e);
         }
-        catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("Stay in your limit");
-        }
+//        catch (ArrayIndexOutOfBoundsException e){
+//            System.out.println("Stay in your limit");
+//        }
         catch (Exception e){
             System.out.println("Something went wrong " + e);
         }

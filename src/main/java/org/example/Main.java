@@ -14,7 +14,8 @@ public class Main {
         System.out.println(number + " factorial = " + result);
 
         Recursion_In_Java greetings = new Recursion_In_Java();
-        greetings.sayHi(1000);
+
+
 
         Recursive_Marks remarks = new Recursive_Marks();
         remarks.giveRemarks(-10);
